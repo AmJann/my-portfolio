@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route,Routes} from 'react-router-dom'
+import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 id = 'intro'>Hello, my name is <br></br><span>Amber Jankowski</span><br></br> and I'm a <br></br><span>Software Engineer!</span></h2>
+      <div id ='profileBorder'>
+      <div id = 'myPictureContainer'>
+        <img id = 'myPicture' alt ='headshot of Amber Jankowski' src ="https://media-exp1.licdn.com/dms/image/C4E03AQE2CIfHJ-xoIQ/profile-displayphoto-shrink_800_800/0/1640115232175?e=1665619200&v=beta&t=Vq2us8D2L44uNa4xXrgnorTsg_03ib5U0GMu5Yt8sds"/>
+        <AboutMe />
+      </div>
+      </div>
+      
+      
+      <Projects />
+      <Contact />
+      
     </div>
   );
 }
