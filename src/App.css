@@ -31,7 +31,6 @@ height:17vh;
   #myPicture{
     height:40vh;
     border-radius: 15px;
-    padding: 5vh;
     background-color: rgb(197, 205, 205);
     border-radius: 9px;
     box-shadow: 15px;
@@ -39,13 +38,12 @@ height:17vh;
   #myPictureContainer{
     display:inline-flex;
     justify-content: center;
-    padding: 5vh;
     /* background-color: rgb(197, 205, 205); */
     border: 1.7px solid rgb(28, 234, 220);
     border-radius: 9px;
     box-shadow: 2vh;
     margin-left: 25vw;
-    padding-top:2vh;
+    
   }
 
   .projectImgContainer{
@@ -54,22 +52,48 @@ height:17vh;
     justify-content: center;
     height:30vh;
     border-radius: 5px;
+   
     
   }
   .projectImg{
     height:40vh;
     width:auto;
-    padding-right:25vh;
-    padding-left:25vh;
-    padding-bottom: 2vh;
-  }
-  #projectContainer{
-    display: inline-flex;
-    flex-direction: row;
+    padding:2vh;
+    margin-left:10vh;
+    margin-right: 10vh;
     
+   
+    border: 1.7px solid rgb(18, 225, 160)
+  }
+  #projectsContainer{
+    display: flex;
+    flex-direction: column; 
+    background-color: red;
+    height:120vh;
+    justify-content: space-around;
+  
+  }
 
+  #projectTitle{
+    text-align: center;
+    background-color: rgb(18, 225, 201);
+  
+  }
+
+  #projectDescriptionContainer{
+    display:inline-flex;
+    justify-content: space-evenly;
+    width:80vh;
+  }
+
+  .projectDescription{
+    display: inline-flex;
+    background-color: aquamarine;
+    padding-left:5vh;
+    font-size: medium;
     
   }
+
 
   #intro{
     text-align: center;
@@ -91,6 +115,12 @@ height:17vh;
     padding-left: 0;
     border-radius: 9px;
   }
+
+  .projectTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
   #aboutMeTitle{
     background-color: rgb(39, 204, 219);
     margin-left:4vh;
@@ -105,6 +135,73 @@ height:17vh;
   #aboutMe{
     margin-left:2vh;
     padding-left: 2vh;
+  }
+
+  #skillsTitle{
+    margin-left: 47vh;
+    background-color: orangered;
+    padding:1vh;
+    padding-left: 3vh;
+    padding-right:0;
+    border-radius: 5px;
+    width:13vh;
+    
+  }
+  #skills{
+    display:inline-flex;
+    margin-top: 0;
+    margin-left: 10vh;
+    margin-right:10vh;
+  
+  }
+
+  #skillsContainer{
+    display:inline-flex;
+    flex-direction: column;
+    border: 1.7px solid orangered;
+    margin: 5vh;
+    margin-top: 4.5vh;
+    margin-right:15vh;
+    border-radius: 7px;
+    
+  }
+
+  .logoRow:last-of-type{
+    padding-right:13vh;
+  }
+
+  #logoContainer{
+    display:inline-flex;
+    direction: column;
+
+  }
+
+  #skillsLogoContainer{
+    display:inline-flex;
+    flex-direction: row;
+    border:1px solid rgb(39, 204, 219);
+    margin:5vh;
+    margin-top: 2vh;
+    border-radius: 7px;
+  }
+  .logo{
+    height:10vh;
+    border-radius: 30px;
+  }
+
+  .logoRow{
+    display:inline-flex;
+    flex-direction: column;
+    padding-top:2.5vh;
+    padding-right:2vh;
+    
+  }
+
+  #contactContainer{
+    display:inline-flex;
+    margin-top: 20vh;
+    background-color: blueviolet;
+    height:20vh;
   }
   span {
     -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;

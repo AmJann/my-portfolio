@@ -2,7 +2,10 @@ import './App.css';
 import {Route,Routes} from 'react-router-dom'
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Logos from './components/Logos';
+
 
 
 function App() {
@@ -14,11 +17,17 @@ function App() {
         <img id = 'myPicture' alt ='headshot of Amber Jankowski' src ="https://media-exp1.licdn.com/dms/image/C4E03AQE2CIfHJ-xoIQ/profile-displayphoto-shrink_800_800/0/1640115232175?e=1665619200&v=beta&t=Vq2us8D2L44uNa4xXrgnorTsg_03ib5U0GMu5Yt8sds"/>
         <AboutMe />
       </div>
+      
       </div>
-      
-      
+      <div id='skillsLogoContainer'>
+      <Skills />
+      <Logos />
+      </div>
+    
       <Projects />
+     
       <Contact />
+     
       
     </div>
   );
