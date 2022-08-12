@@ -34,6 +34,8 @@ height:17vh;
     background-color: rgb(197, 205, 205);
     border-radius: 9px;
     box-shadow: 15px;
+    margin-top: 13vh;
+    margin-left: 5vh;
   }
   #myPictureContainer{
     display:inline-flex;
@@ -45,62 +47,76 @@ height:17vh;
     margin-left: 25vw;
     
   }
-
+  .project{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width:40vw;
+    height:55vh;
+    border:1px solid orangered;
+    padding-left:5vh;
+    padding-bottom: 2vh;
+    border-radius: 9px;
+  }
   .projectImgContainer{
     display:inline-flex;
     flex-direction: row;
-    justify-content: center;
-    height:30vh;
+   align-items: center;
+    height:25vh;
+    width:95vw;
     border-radius: 5px;
-   
-    
+    border: 2px solid rgb(18, 225, 160);
+    justify-content: space-evenly;
+    border-radius: 9px;
   }
+
   .projectImg{
-    height:40vh;
-    width:auto;
-    padding:2vh;
-    margin-left:10vh;
-    margin-right: 10vh;
-    
-   
-    border: 1.7px solid rgb(18, 225, 160)
+    height:35vh;
+    width:60vh;
+    background-color: rgb(197, 205, 205);
+    border-radius: 10px;
+    box-shadow: 50px;
   }
   #projectsContainer{
     display: flex;
     flex-direction: column; 
-    background-color: red;
-    height:120vh;
-    justify-content: space-around;
+    /* background-color: red; */
+    height:125vh;
+    justify-content: space-evenly;
+    padding-left: 2vh;
+    
   
   }
 
   #projectTitle{
     text-align: center;
     background-color: rgb(18, 225, 201);
-  
+
+  }
+  .projectTitleA{
+    background-color: orangered ;
+    padding:1vh;
+    padding-left: 3vh;
+    padding-right:3vh;
+    border-radius: 5px;
   }
 
-  #projectDescriptionContainer{
-    display:inline-flex;
-    justify-content: space-evenly;
-    width:80vh;
+  .projectTitleB{
+    background-color: rgb(39, 204, 219);
+    padding:1vh;
+    padding-left: 3vh;
+    padding-right:3vh;
+    border-radius: 5px;
   }
 
-  .projectDescription{
-    display: inline-flex;
-    background-color: aquamarine;
-    padding-left:5vh;
-    font-size: medium;
-    
-  }
+
+
 
 
   #intro{
     text-align: center;
     font-family: 'Overpass Mono', monospace;
     font-size: xx-large;
-
-
   }
 
   .text{
