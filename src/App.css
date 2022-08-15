@@ -11,6 +11,11 @@ body{
  
 }
 
+footer{
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
 #intro{
   text-align: left;
   font-family: 'Overpass Mono', monospace;
@@ -37,6 +42,7 @@ background-image:linear-gradient(to right,  rgb(39, 204, 219) , #f7f3f3);
 justify-self: flex-end;
 margin-top: 2vh;
 justify-content:flex-start;
+margin-right:1vh;
 
   }
 
@@ -54,9 +60,17 @@ transform: scale(1.2);
   .icon{
   height:9vh;
   width:9vh;
-  border-radius:20px;
+  border-radius:7px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
+  }
+
+  #github{
+    border-radius:10px;
+  }
+
+  #resume{
+    border-radius:100px;
   }
 
 
@@ -187,11 +201,11 @@ transform: scale(1.2);
   #myPicture{
     height:40vh;
     border-radius: 15px;
-    background-color: rgb(197, 205, 205);
     border-radius: 9px;
     box-shadow: 15px;
-    margin-top: 13vh;
+    margin-top: 5vh;
     margin-left: 5vh;
+   margin-bottom:10vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -209,10 +223,15 @@ transform: scale(1.2);
 
   #aboutMe{
     margin-left:2vh;
+    margin-right: 2vh;
     padding-right:2vh;
-    padding-top:3vh;
+    padding-top:2vh;
     padding-left: 2vh;
-   
+    padding-bottom: 1vh;
+    background-image:linear-gradient(to right,  rgba(200, 204, 204, 0.8) , rgba(244, 240, 240, 0.819));
+    /* border:1px solid rgb(173, 171, 171); */
+    border-radius: 7px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   }
 
   #aboutMeContainer{
@@ -222,7 +241,10 @@ transform: scale(1.2);
   }
 
 #myPictureContainer{
-  display:inline-flex
+  display:inline-flex;
+margin-top: 10vh;
+
+ 
 }
 
   p{
@@ -478,7 +500,6 @@ transform: scale(1.2);
         .icon{
         height:9vh;
         width:9vh;
-        border-radius:20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
@@ -507,9 +528,9 @@ transform: scale(1.2);
     #intro{
       text-align: center;
       font-family: 'Overpass Mono', monospace;
-      font-size: 28px;
-      padding-left: 0vw;
-     
+      font-size: 23px;
+      padding-left: 0;
+      margin-left: 0;
       
     }
 
@@ -568,7 +589,6 @@ transform: scale(1.2);
         .icon{
         height:9vh;
         width:9vh;
-        border-radius:20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
@@ -608,7 +628,8 @@ transform: scale(1.2);
           margin-right: 0;
         }
         #profileBorder{
-          padding-right: 0;
+          padding:1vh;
+          margin:1vh;
         }
 
         #aboutMeTitle{

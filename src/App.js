@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Logos from './components/Logos';
+import Resume from './components/Resume';
 
 
 
@@ -33,7 +34,7 @@ function App() {
     
       <Projects />
      
-     
+     <footer className ='text'>By Amber Jankowski</footer>
      
       
     </div>
