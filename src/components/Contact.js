@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import resume from '../images/Amber-Jankowski-Resume.pdf'
+import resume from '../images/AmberResume.pdf'
 import resumeIcon from '../images/resume-icon.png'
 
 function Contact() {

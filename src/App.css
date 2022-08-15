@@ -30,6 +30,7 @@ flex-direction: row;
 padding-top: 2vh;
 height:2vh;
 
+
 }
 
 #contactLogoContainer{
@@ -67,10 +68,12 @@ transform: scale(1.2);
 
   #github{
     border-radius:10px;
+    margin-left: .7vh;
   }
 
   #resume{
     border-radius:100px;
+    margin-left: .3vh;
   }
 
 
