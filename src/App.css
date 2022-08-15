@@ -1,52 +1,65 @@
 body{
   background-image: url('https://cutewallpaper.org/25/animated-tech-white-wallpaper/white-f1178-technology-3663a-wallpapers-2702d-on-d2bf8-wallpaperdog.png');
   background-repeat: no-repeat;
-  background-color:#ecebeb
+  background-color:#ecebeb;
+  
+}
+#header{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+ 
+}
+
+#intro{
+  text-align: left;
+  font-family: 'Overpass Mono', monospace;
+  font-size: xx-large;
+  margin-left: 7vh;
+  
 }
 
 .contactImgContainer{
 display: inline-flex;
 flex-direction: row;
-
+padding-top: 2vh;
+height:2vh;
 
 }
+
 #contactLogoContainer{
 display:inline-flex;
-height: 15vh;
+height: 10vh;
 border-radius: 20px;
+padding-left: 17vh;
+background-color:#dddada;
+background-image:linear-gradient(to right,  rgb(39, 204, 219) , #f7f3f3);
+justify-self: flex-end;
+margin-top: 2vh;
+justify-content:flex-start;
+
   }
 
+#email{
+  font-size: 14px;
+  text-align: right;
+  margin-right: 2vh;
+} 
+  
 .icon:hover{
-width: 17vh;
-height:17vh;
+transform: scale(1.2);
 
   }
 
   .icon{
-  height:15vh;
-  width:15vh;
+  height:9vh;
+  width:9vh;
   border-radius:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
   }
 
-  #myPicture{
-    height:40vh;
-    border-radius: 15px;
-    background-color: rgb(197, 205, 205);
-    border-radius: 9px;
-    box-shadow: 15px;
-    margin-top: 13vh;
-    margin-left: 5vh;
-  }
-  #myPictureContainer{
-    display:inline-flex;
-    justify-content: center;
-    /* background-color: rgb(197, 205, 205); */
-    border: 1.7px solid rgb(28, 234, 220);
-    border-radius: 9px;
-    box-shadow: 2vh;
-    margin-left: 25vw;
-    
-  }
+
   .project{
     display: inline-flex;
     flex-direction: column;
@@ -54,45 +67,58 @@ height:17vh;
     width:40vw;
     height:55vh;
     border:1px solid orangered;
-    padding-left:5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     padding-bottom: 2vh;
     border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
   .projectImgContainer{
     display:inline-flex;
     flex-direction: row;
-   align-items: center;
+    align-items: center;
     height:25vh;
     width:95vw;
     border-radius: 5px;
-    border: 2px solid rgb(18, 225, 160);
+    border: 2px solid  rgb(18, 225, 201);
     justify-content: space-evenly;
     border-radius: 9px;
+        
   }
 
   .projectImg{
-    height:35vh;
-    width:60vh;
+    height:30vh;
+    width:50vh;
     background-color: rgb(197, 205, 205);
     border-radius: 10px;
-    box-shadow: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2.5vh;
   }
+
+  .projectImg:hover{
+    transform: scale(1.3);
+  }
+
   #projectsContainer{
     display: flex;
     flex-direction: column; 
-    /* background-color: red; */
-    height:125vh;
-    justify-content: space-evenly;
+    height:120vh;
+    justify-content: space-around;
     padding-left: 2vh;
+    margin-top:5vh;
+    padding-bottom: 20vh;
     
-  
   }
 
   #projectTitle{
     text-align: center;
     background-color: rgb(18, 225, 201);
-
+    box-shadow: 20px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:10vh;
   }
+
   .projectTitleA{
     background-color: orangered ;
     padding:1vh;
@@ -109,20 +135,29 @@ height:17vh;
     border-radius: 5px;
   }
 
+  .githubButton{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(18, 225, 201);
+    padding:1vh;
+    padding-left: 3vh;
+    padding-right:3vh;
+    border-radius: 5px;
+    box-shadow: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
 
-
-
-
-  #intro{
-    text-align: center;
-    font-family: 'Overpass Mono', monospace;
-    font-size: xx-large;
+  .githubButton:hover{
+    transform: scale(1.2);
+    opacity: .8;
   }
 
   .text{
     font-family: 'Overpass Mono', monospace;
     font-weight: 200;
   }
+
   #profileBorder{
     display:inline-flex;
     padding:5vh;
@@ -136,39 +171,85 @@ height:17vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  #myAboutMeContainer{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1.7px solid rgb(28, 234, 220);
+    border-radius: 9px;
+    margin:2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 47vh;
+  }
+
+  #myPicture{
+    height:40vh;
+    border-radius: 15px;
+    background-color: rgb(197, 205, 205);
+    border-radius: 9px;
+    box-shadow: 15px;
+    margin-top: 13vh;
+    margin-left: 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   #aboutMeTitle{
     background-color: rgb(39, 204, 219);
-    margin-left:4vh;
     text-align: center;
     display:inline-flex;
-    margin-left: 30vh;
     padding:1vh;
     padding-left: 3vh;
     padding-right:3vh;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
   }
+
   #aboutMe{
     margin-left:2vh;
+    padding-right:2vh;
+    padding-top:3vh;
     padding-left: 2vh;
+   
+  }
+
+  #aboutMeContainer{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#myPictureContainer{
+  display:inline-flex
+}
+
+  p{
+    font-size: 14px;
   }
 
   #skillsTitle{
-    margin-left: 47vh;
+  
     background-color: orangered;
     padding:1vh;
     padding-left: 3vh;
     padding-right:0;
     border-radius: 5px;
     width:13vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
   }
+
   #skills{
-    display:inline-flex;
+  
     margin-top: 0;
     margin-left: 10vh;
     margin-right:10vh;
-  
+    text-align: left;
+    
+    
   }
 
   #skillsContainer{
@@ -176,10 +257,11 @@ height:17vh;
     flex-direction: column;
     border: 1.7px solid orangered;
     margin: 5vh;
-    margin-top: 4.5vh;
+    margin-top: 6vh;
     margin-right:15vh;
     border-radius: 7px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
   }
 
   .logoRow:last-of-type{
@@ -197,9 +279,10 @@ height:17vh;
     flex-direction: row;
     border:1px solid rgb(39, 204, 219);
     margin:5vh;
-    margin-top: 2vh;
+    margin-top: 7vh;
     border-radius: 7px;
   }
+
   .logo{
     height:10vh;
     border-radius: 30px;
@@ -219,7 +302,8 @@ height:17vh;
     background-color: blueviolet;
     height:20vh;
   }
-  span {
+
+  .intro {
     -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             font-family: 'BhuTuka Expanded One', cursive;
@@ -259,5 +343,392 @@ height:17vh;
               transform: translateZ(0);
       opacity: 1;
     }
+  }
+
+  @media screen and (max-width: 1100px){
+    #myAboutMeContainer{
+      display:inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1.7px solid rgb(28, 234, 220);
+      border-radius: 9px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-left:5vh;
+    }
+
+    #aboutMeConatiner{
+      border: 1.7px solid rgb(28, 234, 220);
+      align-content: center;
+      justify-content: center;
+     
+    }
+    #myPicture{
+      margin-right: 5vh;
+    }
+  }
+
+  @media screen and (max-width: 956px){
+    #skillsLogoContainer{
+     
+      flex-direction: column;
+      align-items: center;
+ 
+    }
+
+    .projectImg{
+      height:25vh;
+      width:40vh;
+      margin-top: 6vh;
+    }
+
+    .projectImgContainer{
+      height:20vh;
+    }
+
+    #logoContainer{
+      display:inline-flex;
+      direction: row;
+      justify-content: center;
+     padding:0;
+     margin:0;
+     flex-wrap: wrap;
+    }
+    #skillsContainer{
+      display:inline-flex;
+      flex-direction: column;
+      border: 1.7px solid orangered;
+      margin: 5vh;
+      margin-top: 6vh;
+      border-radius: 7px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      align-items: center;
+    }
+    .logoRow{
+      margin: 0;
+      padding:0;
+      flex-direction: row;
+    }
+    .logo{
+      padding:.5vh;
+    }
+    .logoRow:last-of-type{
+      padding-right:0vh;
+    }
+  }
+
+  @media screen and (max-width: 840px){
+    #intro{
+      text-align: center;
+      font-family: 'Overpass Mono', monospace;
+      font-size: 36px;
+      padding-left: 0vw;
+     
+      
+    }
+
+    #header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contactImgContainer{
+      display: inline-flex;
+      flex-direction: row;
+      padding-top: 2vh;
+      height:2vh;
+      
+      }
+      
+      #contactLogoContainer{
+      display:inline-flex;
+      height: 10vh;
+      border-radius: 20px;
+      padding-left: 17vh;
+      background-color:#dddada;
+      align-self: flex-end;
+      margin-top: 2vh;
+      margin-left: 6vh;
+      
+        }
+      
+      #email{
+        font-size: 14px;
+        text-align: center;
+        margin-top:2vh;
+        margin-left:7vh;
+        
+      } 
+
+      #logoContainer{
+        display:inline-flex;
+        direction: row;
+        justify-content: center;
+       padding:0;
+       margin:0;
+       padding-bottom: 2vh;
+       flex-wrap: wrap;
+      }
+        
+      .icon:hover{
+      transform: scale(1.2);
+      
+        }
+      
+        .icon{
+        height:9vh;
+        width:9vh;
+        border-radius:20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        #myPicture{
+          margin-top: 4vh;
+        }
+
+        .project{
+          height:60vh;
+        }
+
+        .projectImg{
+          height:25vh;
+          width:40vw;
+        }
+
+        #poolTournamentFinder{
+          font-size: small;
+          padding-top:2vh;
+          padding-bottom:1.5vh;
+          font-weight:400;
+        }
+  }
+
+  @media screen and (max-width: 570px){
+    #intro{
+      text-align: center;
+      font-family: 'Overpass Mono', monospace;
+      font-size: 28px;
+      padding-left: 0vw;
+     
+      
+    }
+
+    #header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      
+     
+    }
+
+    .contactImgContainer{
+      display: inline-flex;
+      flex-direction: row;
+      padding-top: 2vh;
+      height:2vh;
+      
+      }
+      
+      #contactLogoContainer{
+      display:inline-flex;
+      height: 10vh;
+      border-radius: 20px;
+      padding-left: 17vh;
+      background-color:#dddada;
+      align-self: flex-end;
+      margin-top: 2vh;
+      margin-left: 6vh;
+      
+        }
+      
+      #email{
+        font-size: 14px;
+        text-align: center;
+        padding: 5vh;
+        margin-left:2vh;
+        
+      } 
+
+      #logoContainer{
+        display:inline-flex;
+        direction: row;
+        justify-content: center;
+       padding:0;
+       margin:0;
+       padding-bottom: 2vh;
+       flex-wrap: wrap;
+      }
+        
+      .icon:hover{
+      transform: scale(1.2);
+      
+        }
+      
+        .icon{
+        height:9vh;
+        width:9vh;
+        border-radius:20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        #skillsContainer{
+          display:inline-flex;
+          flex-direction: column;
+          border: 1.7px solid orangered;
+          margin-top: 6vh;
+          border-radius: 7px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          align-items: center;
+          font-size: medium;
+        }
+      
+        .logo{
+          padding:.5vh;
+          height:8vh;
+        }
+
+        #myPicture{
+          height:30vh;
+          border-radius: 15px;
+          background-color: rgb(197, 205, 205);
+          border-radius: 9px;
+          box-shadow: 15px;
+          margin-top: 5vh;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+      
+        #myAboutMeContainer{
+          margin:.5vh;
+          padding-right:0;
+          align-items:center;
+          
+        }
+        #aboutMeContainer{
+          margin-right: 0;
+        }
+        #profileBorder{
+          padding-right: 0;
+        }
+
+        #aboutMeTitle{
+          background-color: rgb(39, 204, 219);
+          text-align: center;
+          display:inline-flex;
+          padding:1vh;
+          padding-left: 2vh;
+          padding-right:2vh;
+          border-radius: 5px;
+          font-size: medium; 
+          margin-top: 10vh;
+        }
+      
+        #aboutMe{
+          font-size: medium;
+         
+        }
+
+        .project{
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          width:80vw;
+          height:55vh;
+          border:1px solid orangered;
+          padding-left: 2vh;
+          padding-right: 2vh;
+          padding-bottom: 2vh;
+          border-radius: 9px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-top:5vh;
+        }
+        .projectImgContainer{
+          display:inline-flex;
+          flex-direction: column;
+          align-items: center;
+          height:300vh;
+          width:90vw;
+          border-radius: 5px;
+          border: 2px solid rgb(18, 225, 160);
+          margin-bottom:2vh;
+          border-radius: 9px;
+          
+              
+        }
+      
+        .projectImg{
+          height:20vh;
+          width:35vh;
+          background-color: rgb(197, 205, 205);
+          border-radius: 10px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-top: 2.5vh;
+        }
+        #projectsContainer{
+          display: flex;
+          flex-direction: column; 
+          height:300vh;
+          padding-left: 2vh;
+          margin-top:5vh;
+          padding-bottom: 20vh;
+          
+        }
+      
+        #projectTitle{
+          display:flex;
+          text-align: center;
+          background-color: rgb(18, 225, 201);
+          font-size: 18px;
+          justify-content: center;
+          
+        }
+      
+        .projectTitleA{
+          background-color: orangered ;
+          padding:1vh;
+          padding-left: 3vh;
+          padding-right:3vh;
+          border-radius: 5px;
+        }
+      
+        .projectTitleB{
+          background-color: rgb(39, 204, 219);
+          padding:1vh;
+          padding-left: 3vh;
+          padding-right:3vh;
+          border-radius: 5px;
+        }
+
+        /* #projectDescription{
+          display: inline-flex;
+          flex-direction: column;
+          align-self: flex-end;
+        } */
+      
+        .githubButton{
+          text-decoration: none;
+          color:black;
+          background-color: rgb(18, 225, 201);
+          padding:1vh;
+          padding-left: 3vh;
+          padding-right:3vh;
+          border-radius: 5px;
+          box-shadow: 5px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+      
+        .githubButton:hover{
+          transform: scale(1.2);
+          opacity: .8;
+        }
+        #skillsLogoContainer{
+          padding:1vh
+        }
+        #skillsContainer{
+          margin:0;
+          margin-bottom:2vh;
+        }
+
   }
 

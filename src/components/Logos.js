@@ -13,20 +13,20 @@ function Logos() {
   return (
     <div>
         <div id ='logoContainer'>
-            <div class = 'logoRow'>
-                <img class ='logo' alt ='JavaScript logo' src={jsLogo}/>
-                <img class ='logo' alt ='React logo' src={reactLogo}/>
-                <img class ='logo' alt ='CSS logo' src={cssLogo}/>
+            <div className = 'logoRow'>
+                <img className ='logo' alt ='JavaScript logo' src={jsLogo}/>
+                <img className ='logo' alt ='React logo' src={reactLogo}/>
+                <img className ='logo' alt ='CSS logo' src={cssLogo}/>
             </div>
-            <div class = 'logoRow'>
-                <img class ='logo' alt ='Python logo' src={pythonLogo}/>
-                <img class ='logo' alt ='Django logo' src={djangoLogo}/>
-                <img class ='logo' alt ='SQL logo' src={sqlLogo}/>
+            <div className = 'logoRow'>
+                <img className ='logo' alt ='Python logo' src={pythonLogo}/>
+                <img className ='logo' alt ='Django logo' src={djangoLogo}/>
+                <img className ='logo' alt ='SQL logo' src={sqlLogo}/>
             </div>
-            <div class = 'logoRow'>
-                <img class ='logo' alt ='Mongo logo' src={mongoLogo}/>
-                <img class ='logo' alt ='HTML logo' src={htmlLogo}/>
-                <img class ='logo' alt ='EJS logo' src={ejsLogo}/>
+            <div className = 'logoRow'>
+                <img className ='logo' alt ='Mongo logo' src={mongoLogo}/>
+                <img className ='logo' alt ='HTML logo' src={htmlLogo}/>
+                <img className ='logo' alt ='EJS logo' src={ejsLogo}/>
             </div>
         </div>
     </div>

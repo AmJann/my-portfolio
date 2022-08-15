@@ -7,33 +7,36 @@ import jellyJam from '../images/jellyJam.png'
 function Projects() {
   return (
     <div>
-        <h2 id='projectTitle'class ='text'>Projects</h2>
+        <h2 id='projectTitle'className ='text'>Projects</h2>
             <div id = 'projectsContainer'>
 
-                <div class='projectImgContainer'>
+                <div className ='projectImgContainer'>
 
                     {/* Mine Boggler */}
-                    <div class ='project' >
-                        <h3 class ='projectTitle text projectTitleA'>Mine Boggler</h3>
+                    <div className ='project' >
+                        <h3 className ='projectTitle text projectTitleA'>Mine Boggler</h3>
                             <a href = 'https://amjann.github.io/mine-boggler/'>
-                                <img class='projectImg' src ={MineBoggler}/>
+                                <img className ='projectImg' src ={MineBoggler}/>
                             </a>
-                            <div>
-                            <p class ='text'>Boggle style based character movement game. Utilizes <strong>Vanilla Javascript</strong>, <strong>HTML</strong>, and <strong>CSS3</strong>.</p>
+                            <div className ='projectDescription'>
+                            <p className ='text'>Boggle style based character movement game. Utilizes <strong>Vanilla Javascript</strong>, <strong>HTML</strong>, and <strong>CSS3</strong>.</p>
                             </div>
                             <br></br>
-                            <a href ='https://github.com/AmJann/mine-boggler'>Github Repo</a>   
+                            <a className='githubButton text' href ='https://github.com/AmJann/mine-boggler'>Github Repo</a>   
                             
                     </div>
 
                     {/* Recipe Reciter */}
-                    <div class ='project'>   
-                     <h3 class ='projectTitle text projectTitleB'>Recipe Reciter</h3>
+                    <div className ='project'>   
+                     <h3 className ='projectTitle text projectTitleB'>Recipe Reciter</h3>
                         <a href='https://recipe-reciter.herokuapp.com/'>
                             <img class='projectImg' src ={recipeReciter}/>
                         </a> 
-                        <p class ='text'>A recipe app used for storing and organizing recipes. Utilizes <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Node.js</strong>, <strong>EJS</strong>, and <strong>CSS3</strong>. </p>
-                        <a href ='https://github.com/AmJann/recipe-reciter'>Github Repo</a>
+                        <div className ='projectDescription'>
+                        <p className ='text'>A recipe app used for storing and organizing recipes. Utilizes <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Node.js</strong>, <strong>EJS</strong>, and <strong>CSS3</strong>. </p>
+                        </div>
+                    <br></br>
+                        <a className='githubButton text' href ='https://github.com/AmJann/recipe-reciter'>Github Repo</a>
                 
                      </div>
 
@@ -42,29 +45,31 @@ function Projects() {
         
     </div>
 
-                <div class='projectImgContainer'>
+                <div className ='projectImgContainer'>
 
                     {/* Tournament Finder */}
-                    <div class ='project'>
-                     <h3 class ='projectTitle text projectTitleB'>Pool Tournament Finder</h3>
+                    <div className ='project'>
+                     <h3 id='poolTournamentFinder'className ='projectTitle text projectTitleB'>Pool Tournament Finder</h3>
                         <a href ='https://pool-tournament-finder.herokuapp.com/'>
-                            <img class='projectImg' src ={tournamentFinder}/>
+                            <img className ='projectImg' src ={tournamentFinder}/>
                         </a> 
-                        <div>
-                        <p class ='text'> Full stack pool tournament search app. Utilizes <strong>ReactJS</strong>, <strong>Python</strong>, <strong>Django</strong>, <strong>Django Rest Frameworks</strong>, <strong>JWT authentication</strong>, <strong>PostgreSQL</strong>, and <strong>CSS3</strong>.</p>
+                        <div className ='projectDescription'>
+                        <p className ='text'> Full stack pool tournament search app. Utilizes <strong>ReactJS</strong>, <strong>Python</strong>, <strong>Django</strong>, <strong>Django Rest Frameworks</strong>, <strong>JWT authentication</strong>, <strong>PostgreSQL</strong>, and <strong>CSS3</strong>.</p>
                         </div>
-                        <a href='https://github.com/AmJann/Pool-tournament-searcher'>Github Repo</a>   
+                        <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher'>Github Repo</a>   
                     </div>
 
                     {/* Jelly Jam */}
-                    <div class ='project'>
-                        <h3 class ='projectTitle text projectTitleA'>Jelly Jam</h3>
+                    <div className ='project'>
+                        <h3 className ='projectTitle text projectTitleA'>Jelly Jam</h3>
                         <a href ='https://jellyjam.netlify.app/'>
-                            <img class='projectImg' src ={jellyJam}/>
+                            <img className ='projectImg' src ={jellyJam}/>
                         </a>
-                        <p class ='text'>Spotify clone App. Utilizes <strong>ReactJS</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Axios</strong>, and <strong>CSS3</strong>.</p>
+                        <div className ='projectDescription'>
+                        <p className ='text'>Spotify clone App. Utilizes <strong>ReactJS</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Axios</strong>, and <strong>CSS3</strong>. Team project completed in a two week sprint.</p>
+                        </div>
                         <br></br>
-                        <a href ='https://github.com/AmJann/jellyjam-client-side'>Github Repo</a>
+                        <a  className='githubButton text' href ='https://github.com/AmJann/jellyjam-client-side'>Github Repo</a>
                     </div>
 
                 </div>
