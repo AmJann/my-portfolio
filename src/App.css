@@ -528,6 +528,9 @@ margin-top: 10vh;
   }
 
   @media screen and (max-width: 570px){
+    #projectsContainer{
+      align-items: center;
+    }
     #intro{
       text-align: center;
       font-family: 'Overpass Mono', monospace;
