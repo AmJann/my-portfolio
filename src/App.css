@@ -2,7 +2,7 @@ body{
   background-image: url('https://cutewallpaper.org/25/animated-tech-white-wallpaper/white-f1178-technology-3663a-wallpapers-2702d-on-d2bf8-wallpaperdog.png');
   background-repeat: no-repeat;
   background-color:#ecebeb;
-  
+   -webkit-text-size-adjust: none; 
 }
 #header{
   display: flex;
