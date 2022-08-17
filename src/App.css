@@ -693,11 +693,11 @@ margin-top: 10vh;
         }
         #projectsContainer{
           display: flex;
-          flex-direction: column; 
+          flex-direction: column;
+          padding:0; 
           height:300vh;
           padding-left: 2vh;
           margin-top:5vh;
-          padding-bottom: 20vh;
           justify-content: center;
           
         }
