@@ -12,12 +12,12 @@ import Logos from './components/Logos';
 function App() {
   return (
     <div className="App">
-      <div id='header'>
+      <header id='header'>
         <div>
           <h2 id = 'intro'>Hello, my name is <br></br><span className ='intro'>Amber Jankowski</span><br></br> and I'm a <br></br><span className ='intro'>Software Engineer!</span></h2>
        </div>
        <Contact />
-      </div>
+      </header>
       <div id ='profileBorder'>
       <div id = 'myAboutMeContainer'>
         <div id ='myPictureContainer'>
