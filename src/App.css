@@ -525,7 +525,9 @@ transform: scale(1.2);
     #projectsContainer{
       padding-bottom:0; 
       height:300vh;
+      -webkit-height:300vh;
       justify-content: center;
+      -webkit-justify-content: center;
     }
     
     #projectTitle{
