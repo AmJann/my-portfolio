@@ -21,7 +21,7 @@ function App() {
       <div id ='profileBorder'>
       <div id = 'myAboutMeContainer'>
         <div id ='myPictureContainer'>
-        <img id = 'myPicture' alt ='headshot of Amber Jankowski' src ="https://media-exp1.licdn.com/dms/image/C4E03AQE2CIfHJ-xoIQ/profile-displayphoto-shrink_800_800/0/1640115232175?e=1665619200&v=beta&t=Vq2us8D2L44uNa4xXrgnorTsg_03ib5U0GMu5Yt8sds"/>
+        <img id = 'myPicture' alt ='headshot of Amber Jankowski' src ="https://media-exp1.licdn.com/dms/image/C4E03AQE2CIfHJ-xoIQ/profile-displayphoto-shrink_800_800/0/1640115232175?e=1671667200&v=beta&t=GN2fIM9VLBXusGz4Yz-XRLqZ_vRzDhCn7-CXIW4kz9E"/>
         </div>
         <AboutMe />
       </div>
