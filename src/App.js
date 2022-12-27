@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Logos from './components/Logos';
+import amber from './images/amber.jpeg';
 
 
 
@@ -21,7 +22,7 @@ function App() {
       <div id ='profileBorder'>
       <div id = 'myAboutMeContainer'>
         <div id ='myPictureContainer'>
-        <img id = 'myPicture' alt ='Amber Jankowski' src ="https://media-exp1.licdn.com/dms/image/C4E03AQE2CIfHJ-xoIQ/profile-displayphoto-shrink_800_800/0/1640115232175?e=1671667200&v=beta&t=GN2fIM9VLBXusGz4Yz-XRLqZ_vRzDhCn7-CXIW4kz9E"/>
+        <img id = 'myPicture' alt ='Amber Jankowski' src ={amber}/>
         </div>
         <AboutMe />
       </div>
