@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4b7a426.css",
+    "main.js": "/static/js/main.28b8f978.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/jellyJam.png": "/static/media/jellyJam.5bb8c1ce35859375873f.png",
+    "static/media/tournamentFinder.png": "/static/media/tournamentFinder.567b4f738596afc2f918.png",
+    "static/media/recipeReciter.png": "/static/media/recipeReciter.d78928f2cf769bfed618.png",
+    "static/media/MineBoggler.png": "/static/media/MineBoggler.041419ea7ebdfc08023b.png",
+    "static/media/AmberResume.pdf": "/static/media/AmberResume.f41d15fb1a163e63a3d3.pdf",
+    "index.html": "/index.html",
+    "main.f4b7a426.css.map": "/static/css/main.f4b7a426.css.map",
+    "main.28b8f978.js.map": "/static/js/main.28b8f978.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4b7a426.css",
+    "static/js/main.28b8f978.js"
+  ]
+}
