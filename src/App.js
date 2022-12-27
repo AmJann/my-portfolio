@@ -8,7 +8,6 @@ import Logos from './components/Logos';
 import amber from './images/amber.jpeg';
 
 
-
 function App() {
   return (
     <div className="App">
