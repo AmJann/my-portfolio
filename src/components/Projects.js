@@ -36,6 +36,7 @@ function Projects() {
                         <p className ='text'>A recipe app used for storing and organizing recipes. Utilizes <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Node.js</strong>, <strong>EJS</strong>, and <strong>CSS3</strong>. </p>
                         </div>
                     <br></br>
+                    
                         <a className='githubButton text' href ='https://github.com/AmJann/recipe-reciter' target="_blank">Github Repo</a>
                 
                      </div>
