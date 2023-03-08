@@ -50,7 +50,7 @@ function Projects() {
                     {/* Tournament Finder */}
                     <div className ='project'>
                      <h3 id='poolTournamentFinder'className ='projectTitle text projectTitleB'>Pool Tournament Finder</h3>
-                        <a href ='https://pool-tournament-finder.herokuapp.com/' target="_blank">
+                        <a href ='https://pool-tournament-finder.onrender.com/' target="_blank">
                             <img className ='projectImg' src ={tournamentFinder}/>
                         </a> 
                         <div className ='projectDescription'>
