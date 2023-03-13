@@ -1,5 +1,4 @@
 import './App.css';
-import {Route,Routes} from 'react-router-dom'
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';

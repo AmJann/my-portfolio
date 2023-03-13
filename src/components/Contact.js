@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import resume from '../images/AmberResume.pdf'
 import resumeIcon from '../images/resume-icon.png'
 
@@ -18,7 +17,7 @@ function Contact() {
           </a>
         </div>
         <div className='contactImgContainer'>
-        <a href = {resume} target='_blank'><img id ='resume'className='icon' alt='resume icon' src={resumeIcon}/></a>
+        <a href = {resume} target='_blank' rel="noreferrer"><img id ='resume'className='icon' alt='resume icon' src={resumeIcon}/></a>
         </div>
       </div>
       <div>
