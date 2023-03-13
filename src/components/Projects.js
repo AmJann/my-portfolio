@@ -22,14 +22,14 @@ function Projects() {
                             <p className ='text'>Boggle style based character movement game. Utilizes <strong>Vanilla Javascript</strong>, <strong>HTML</strong>, and <strong>CSS3</strong>.</p>
                             </div>
                             <br></br>
-                            <a className='githubButton text' href ='https://github.com/AmJann/mine-boggler' target="_blank">Github Repo</a>   
+                            <a className='githubButton text' href ='https://github.com/AmJann/mine-boggler' target="_blank" rel="noreferrer">Github Repo</a>   
                             
                     </div>
 
                     {/* Recipe Reciter */}
                     <div className ='project'>   
                      <h3 className ='projectTitle text projectTitleB'>Recipe Reciter</h3>
-                        <a href='https://recipe-reciter.herokuapp.com/' target="_blank">
+                        <a href='https://recipe-reciter.herokuapp.com/' target="_blank" rel="noreferrer">
                             <img class='projectImg' src ={recipeReciter}/>
                         </a> 
                         <div className ='projectDescription'>
@@ -37,7 +37,7 @@ function Projects() {
                         </div>
                     <br></br>
                     
-                        <a className='githubButton text' href ='https://github.com/AmJann/recipe-reciter' target="_blank">Github Repo</a>
+                        <a className='githubButton text' href ='https://github.com/AmJann/recipe-reciter' target="_blank" rel="noreferrer">Github Repo</a>
                 
                      </div>
 
@@ -57,7 +57,7 @@ function Projects() {
                         <div className ='projectDescription'>
                         <p className ='text'> Full stack pool tournament search app. Utilizes <strong>ReactJS</strong>, <strong>Python</strong>, <strong>Django</strong>, <strong>Django Rest Frameworks</strong>, <strong>JWT authentication</strong>, <strong>PostgreSQL</strong>, and <strong>CSS3</strong>.</p>
                         </div>
-                        <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher' target="_blank">Github Repo</a>   
+                        <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher' target="_blank" rel="noreferrer">Github Repo</a>   
                     </div>
 
                     {/* Jelly Jam */}
@@ -70,7 +70,7 @@ function Projects() {
                         <p className ='text'>Spotify clone App. Utilizes <strong>ReactJS</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Axios</strong>, and <strong>CSS3</strong>. Team project completed in a two week sprint.</p>
                         </div>
                         <br></br>
-                        <a  className='githubButton text' href ='https://github.com/AmJann/jellyjam-client-side' target="_blank">Github Repo</a>
+                        <a  className='githubButton text' href ='https://github.com/AmJann/jellyjam-client-side' target="_blank" rel="noreferrer" >Github Repo</a>
                     </div>
 
                 </div>
