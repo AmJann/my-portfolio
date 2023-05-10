@@ -1,6 +1,6 @@
 import React from 'react'
 import MineBoggler from '../images/MineBoggler.png'
-import recipeReciter from '../images/recipeReciter.png'
+import restaurantFinder from '../images/restaurantFinder.png'
 import tournamentFinder from '../images/tournamentFinder.png'
 import jellyJam from '../images/jellyJam.png'
 
@@ -22,22 +22,22 @@ function Projects() {
                             <p className ='text'>Boggle style based character movement game. Utilizes <strong>Vanilla Javascript</strong>, <strong>HTML</strong>, and <strong>CSS3</strong>.</p>
                             </div>
                             <br></br>
-                            <a className='githubButton text' href ='https://github.com/AmJann/mine-boggler' target="_blank" rel="noreferrer">Github Repo</a>   
+                            <a className='githubButton text' href ='https://github.com/AmJann/mine-boggler' target="_blank" rel="noreferrer">GitHub Repo</a>   
                             
                     </div>
 
                     {/* Recipe Reciter */}
                     <div className ='project'>   
-                     <h3 className ='projectTitle text projectTitleB'>Recipe Reciter</h3>
-                        <a href='https://recipe-reciter.herokuapp.com/' target="_blank" rel="noreferrer">
-                            <img class='projectImg' alt='screenshot of app' src ={recipeReciter}/>
+                     <h3 className ='projectTitle text projectTitleB'>Restaraunt Finder</h3>
+                        <a href='https://challenge4-yelp.onrender.com/' target="_blank" rel="noreferrer">
+                            <img class='projectImg' alt='screenshot of app' src ={restaurantFinder}/>
                         </a> 
                         <div className ='projectDescription'>
-                        <p className ='text'>A recipe app used for storing and organizing recipes. Utilizes <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Node.js</strong>, <strong>EJS</strong>, and <strong>CSS3</strong>. </p>
+                        <p className ='text'>Restaurant search app and restaurant suggestion generator. Utilizes <strong>React Redux</strong>, <strong>Django Rest Framework</strong>, <strong>PostgreSQL</strong> database, <strong>CSS3</strong> and geolocation. </p>
                         </div>
                     <br></br>
                     
-                        <a className='githubButton text' href ='https://github.com/AmJann/recipe-reciter' target="_blank" rel="noreferrer">Github Repo</a>
+                        <a className='githubButton text' href ='https://github.com/AmJann/restaurant-finder' target="_blank" rel="noreferrer">GitHub Repo</a>
                 
                      </div>
 
@@ -57,7 +57,7 @@ function Projects() {
                         <div className ='projectDescription'>
                         <p className ='text'> Full stack pool tournament search app. Utilizes <strong>ReactJS</strong>, <strong>Python</strong>, <strong>Django</strong>, <strong>Django Rest Frameworks</strong>, <strong>JWT authentication</strong>, <strong>PostgreSQL</strong>, and <strong>CSS3</strong>.</p>
                         </div>
-                        <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher' target="_blank" rel="noreferrer">Github Repo</a>   
+                        <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher' target="_blank" rel="noreferrer">GitHub Repo</a>   
                     </div>
 
                     {/* Jelly Jam */}
@@ -70,7 +70,7 @@ function Projects() {
                         <p className ='text'>Spotify clone App. Utilizes <strong>ReactJS</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Axios</strong>, and <strong>CSS3</strong>. Team project completed in a two week sprint.</p>
                         </div>
                         <br></br>
-                        <a  className='githubButton text' href ='https://github.com/AmJann/jellyjam-client-side' target="_blank" rel="noreferrer" >Github Repo</a>
+                        <a  className='githubButton text' href ='https://github.com/AmJann/jellyjam-client-side' target="_blank" rel="noreferrer" >GitHub Repo</a>
                     </div>
 
                 </div>

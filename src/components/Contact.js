@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../images/AmberResume.pdf'
+import resume from '../images/Amber-Jankowski-GA.pdf'
 import resumeIcon from '../images/resume-icon.png'
 
 function Contact() {

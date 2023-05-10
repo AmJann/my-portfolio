@@ -4,6 +4,7 @@ body{
   background-color:#ecebeb;
   -webkit-text-size-adjust: none; 
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  
 }
 #header{
   display: flex;
@@ -12,7 +13,7 @@ body{
   background-color: rgb(16, 207, 185);
   color:white;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
- 
+  padding-right: 2.5vw;
 }
 
 footer{
