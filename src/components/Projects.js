@@ -39,7 +39,7 @@ function Projects() {
                         </div>
                     <br></br>
                     
-                        <a className='githubButton text' href ='https://github.com/AmJann/restaurant-finder' target="_blank" rel="noreferrer">GitHub Repo</a>
+                        <a className='githubButton text' href ='https://github.com/AmJann/challenge2_django' target="_blank" rel="noreferrer">GitHub Repo</a>
                 
                      </div>
 
@@ -59,7 +59,7 @@ function Projects() {
                         <div className ='projectDescription'>
                         <p className ='text'>  Stock porfolio Calculator app. Utilizes <strong>React Redux</strong>, <strong>Django Rest Framework</strong>, <strong>PostgreSQL</strong> database, <strong>CSS3</strong>. Completed with a team I lead in a five day sprint.</p>
                         </div>
-                        <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher' target="_blank" rel="noreferrer">GitHub Repo</a>   
+                        <a className='githubButton text' href='https://github.com/AmJann/stock_calculator_django' target="_blank" rel="noreferrer">GitHub Repo</a>   
                     </div>
 
                     {/* Jelly Jam */}
