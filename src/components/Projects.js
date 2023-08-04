@@ -52,9 +52,9 @@ function Projects() {
 
                 <div className ='projectImgContainer'>
 
-                    {/* Stock Watcher */}
+                    {/* Stock Watch */}
                     <div className ='project'>
-                     <h3 id='poolTournamentFinder'className ='projectTitle text projectTitleB'>Stock Watcher</h3>
+                     <h3 id='poolTournamentFinder'className ='projectTitle text projectTitleB'>Stock Watch</h3>
                         <a href ='https://stock-watcher.onrender.com/' target="_blank" rel="noreferrer">
                             <img className ='projectImg' alt='screenshot of app' src ={stockWatch}/>
                         </a> 
