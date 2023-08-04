@@ -1,7 +1,5 @@
 import React from 'react'
-import MineBoggler from '../images/MineBoggler.png'
 import restaurantFinder from '../images/restaurantFinder.png'
-import tournamentFinder from '../images/tournamentFinder.png'
 import jellyJam from '../images/jellyJam.png'
 import hangman from '../images/hangmanScreenshot.png'
 import stockWatch from '../images/stockWatch.png'
