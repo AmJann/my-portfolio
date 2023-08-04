@@ -3,6 +3,8 @@ import MineBoggler from '../images/MineBoggler.png'
 import restaurantFinder from '../images/restaurantFinder.png'
 import tournamentFinder from '../images/tournamentFinder.png'
 import jellyJam from '../images/jellyJam.png'
+import hangman from '../images/hangmanScreenshot.png'
+import stockWatch from '../images/stockWatch.png'
 
 function Projects() {
   return (
@@ -12,28 +14,30 @@ function Projects() {
 
                 <div className ='projectImgContainer'>
 
-                    {/* Mine Boggler */}
-                    <div className ='project' >
-                        <h3 className ='projectTitle text projectTitleA'>Mine Boggler</h3>
-                            <a href = 'https://amjann.github.io/mine-boggler/' target="_blank" rel="noreferrer">
-                                <img className ='projectImg' alt ='screenshot of game'src ={MineBoggler}/>
-                            </a>
-                            <div className ='projectDescription'>
-                            <p className ='text'>Boggle style based character movement game. Utilizes <strong>Vanilla Javascript</strong>, <strong>HTML</strong>, and <strong>CSS3</strong>.</p>
-                            </div>
-                            <br></br>
-                            <a className='githubButton text' href ='https://github.com/AmJann/mine-boggler' target="_blank" rel="noreferrer">GitHub Repo</a>   
-                            
-                    </div>
-
-                    {/* Recipe Reciter */}
+                    {/* Restaurant Finder */}
                     <div className ='project'>   
                      <h3 className ='projectTitle text projectTitleB'>Restaraunt Finder</h3>
                         <a href='https://challenge4-yelp.onrender.com/' target="_blank" rel="noreferrer">
                             <img class='projectImg' alt='screenshot of app' src ={restaurantFinder}/>
                         </a> 
                         <div className ='projectDescription'>
-                        <p className ='text'>Restaurant search app and restaurant suggestion generator. Utilizes <strong>React Redux</strong>, <strong>Django Rest Framework</strong>, <strong>PostgreSQL</strong> database, <strong>CSS3</strong> and geolocation. </p>
+                        <p className ='text'>Restaurant search app and suggestion generator. Utilizes <strong>React Redux</strong>, <strong>Django Rest Framework</strong>, <strong>PostgreSQL</strong> database, <strong>CSS3</strong> and geolocation.Completed with a team I lead in a five day sprint. </p>
+                        </div>
+                    <br></br>
+                    
+                        <a className='githubButton text' href ='https://github.com/AmJann/restaurant-finder' target="_blank" rel="noreferrer">GitHub Repo</a>
+                
+                     </div>
+
+                    {/* Hangman */}
+                    <div className ='project'>   
+                     <h3 className ='projectTitle text projectTitleB'>Hangman!</h3>
+                        <a href='https://hangman-team58.onrender.com/' target="_blank" rel="noreferrer">
+                            <img class='projectImg' alt='screenshot of app' src ={hangman}/>
+                        </a> 
+                        <div className ='projectDescription'>
+                        <p className ='text'>
+                            Classic Hangman game, complete with leaderboard and challenge a friend. Utilizes <strong>React Redux</strong>, <strong>Django Rest Framework</strong>, <strong>PostgreSQL</strong> database, <strong>CSS3</strong>. Completed with a team I lead in a five day sprint. </p>
                         </div>
                     <br></br>
                     
@@ -48,14 +52,14 @@ function Projects() {
 
                 <div className ='projectImgContainer'>
 
-                    {/* Tournament Finder */}
+                    {/* Stock Watcher */}
                     <div className ='project'>
-                     <h3 id='poolTournamentFinder'className ='projectTitle text projectTitleB'>Pool Tournament Finder</h3>
-                        <a href ='https://pool-tournament-finder.onrender.com/' target="_blank" rel="noreferrer">
-                            <img className ='projectImg' alt='screenshot of app' src ={tournamentFinder}/>
+                     <h3 id='poolTournamentFinder'className ='projectTitle text projectTitleB'>Stock Watcher</h3>
+                        <a href ='https://stock-watcher.onrender.com/' target="_blank" rel="noreferrer">
+                            <img className ='projectImg' alt='screenshot of app' src ={stockWatch}/>
                         </a> 
                         <div className ='projectDescription'>
-                        <p className ='text'> Full stack pool tournament search app. Utilizes <strong>ReactJS</strong>, <strong>Python</strong>, <strong>Django</strong>, <strong>Django Rest Frameworks</strong>, <strong>JWT authentication</strong>, <strong>PostgreSQL</strong>, and <strong>CSS3</strong>.</p>
+                        <p className ='text'>  Stock porfolio Calculator app. Utilizes <strong>React Redux</strong>, <strong>Django Rest Framework</strong>, <strong>PostgreSQL</strong> database, <strong>CSS3</strong>. Completed with a team I lead in a five day sprint.</p>
                         </div>
                         <a className='githubButton text' href='https://github.com/AmJann/Pool-tournament-searcher' target="_blank" rel="noreferrer">GitHub Repo</a>   
                     </div>
