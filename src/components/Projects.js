@@ -15,7 +15,7 @@ function Projects() {
                     {/* Restaurant Finder */}
                     <div className ='project'>   
                      <h3 className ='projectTitle text projectTitleB'>Restaraunt Finder</h3>
-                        <a href='https://challenge4-yelp.onrender.com/' target="_blank" rel="noreferrer">
+                        <a href='https://restaurant-finder2.onrender.com/' target="_blank" rel="noreferrer">
                             <img class='projectImg' alt='screenshot of app' src ={restaurantFinder}/>
                         </a> 
                         <div className ='projectDescription'>
