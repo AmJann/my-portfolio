@@ -3,6 +3,7 @@ import restaurantFinder from '../images/restaurantFinder.png'
 import jellyJam from '../images/jellyJam.png'
 import hangman from '../images/hangmanScreenshot.png'
 import stockWatch from '../images/stockWatch.png'
+import FNB from '../images/FNB-redesign.png'
 
 function Projects() {
   return (
@@ -62,17 +63,17 @@ function Projects() {
                         <a className='githubButton text' href='https://github.com/AmJann/stock_calculator_django' target="_blank" rel="noreferrer">GitHub Repo</a>   
                     </div>
 
-                    {/* Jelly Jam */}
+                    {/* FNB */}
                     <div className ='project'>
-                        <h3 className ='projectTitle text projectTitleA'>Jelly Jam</h3>
+                        <h3 className ='projectTitle text projectTitleA'>Food not Bombs Redesign</h3>
                         <a href ='https://jellyjam.netlify.app/' target="_blank" rel="noreferrer">
-                            <img className ='projectImg' alt='screenshot of app' src ={jellyJam}/>
+                            <img className ='projectImg' alt='screenshot of app' src ={FNB}/>
                         </a>
                         <div className ='projectDescription'>
-                        <p className ='text'>Spotify clone App. Utilizes <strong>ReactJS</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Axios</strong>, and <strong>CSS3</strong>. Team project completed in a two week sprint.</p>
+                        <p className ='text'>Total <strong>Frontend</strong> redesign and rebrand utilizing <strong>React.js</strong>. Completed for the GA Winter Hackathon with a cross-functional team of 4 UX designers and 3 total developers in a 5 day sprint.</p>
                         </div>
                         <br></br>
-                        <a  className='githubButton text' href ='https://github.com/AmJann/jellyjam-client-side' target="_blank" rel="noreferrer" >GitHub Repo</a>
+                        <a  className='githubButton text' href ='https://github.com/AmJann/fnb-redesign' target="_blank" rel="noreferrer" >GitHub Repo</a>
                     </div>
 
                 </div>
