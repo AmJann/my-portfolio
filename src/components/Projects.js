@@ -1,6 +1,5 @@
 import React from 'react'
 import restaurantFinder from '../images/restaurantFinder.png'
-import jellyJam from '../images/jellyJam.png'
 import hangman from '../images/hangmanScreenshot.png'
 import stockWatch from '../images/stockWatch.png'
 import FNB from '../images/FNB-redesign.png'
