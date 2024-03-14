@@ -1,8 +1,9 @@
 body{
-  background-image: url('https://cutewallpaper.org/25/animated-tech-white-wallpaper/white-f1178-technology-3663a-wallpapers-2702d-on-d2bf8-wallpaperdog.png');
+  /* background-image: url('images/portfolio-background3.png'); */
   background-repeat: no-repeat;
   background-color:#ecebeb;
-  -webkit-text-size-adjust: none; 
+  background-size:contain;
+  -webkit-text-size-adjust:auto; 
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   
 }
@@ -238,7 +239,7 @@ transform: scale(1.2);
   }
 
   #skillsTitle{
-    background-color: orangered;
+    background-color: rgb(255, 69, 0);
     padding:1vh 0 1vh 3vh;
     border-radius: 5px;
     width:13vh;
@@ -268,6 +269,7 @@ transform: scale(1.2);
   #logoContainer{
     display:inline-flex;
     direction: column;
+    margin-bottom: 1vh;
   }
 
   #skillsLogoContainer{

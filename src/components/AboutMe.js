@@ -1,16 +1,30 @@
-import React from 'react'
+import React from "react";
 
 function AboutMe() {
   return (
     <div>
-        <div id ='aboutMeContainer'>
-            <h2 className = 'text' id ='aboutMeTitle'>About Me</h2>
-            <h3 className ='text' id='aboutMe'>
-            I've went from self-learning HTML, CSS, and JavaScript to being enrolled in General Assembly in the Software Engineering Flex Immersive bootcamp. I graduated July 23rd 2022! I am an expert Googler and problem solver. My previous roles in traffic control and utility locating were jobs centered around problem solving, which has given me the upper edge in my journey into web development. Besides problem solving, having been a crew lead, I developed optimal communication, leadership, and team building skills.
-            </h3>
-        </div>
+      <div id="aboutMeContainer">
+        <h2 className="text" id="aboutMeTitle">
+          About Me
+        </h2>
+        <h3 className="text" id="aboutMe">
+          I successfully completed the Full-stack Software Engineering Immersive
+          program at General Assembly, an intensive 24-week, 450+ hour
+          curriculum, graduating in July 2022. Throughout my journey, I actively
+          led and participated in various hackathon events. Notably, I led a
+          team in a competition with over 1,500 participants, advancing to the
+          fourth week out of five and securing a position among the top 80
+          software engineers.
+          <br />
+          Presently, I am an apprentice at Underdog Developers, where I am
+          fortunate to be mentored by some of the industry's finest
+          professionals. Engaging in challenging one-on-one paired programming
+          sessions with senior engineers from leading companies has been an
+          invaluable aspect of my learning experience.
+        </h3>
+      </div>
     </div>
-  )
+  );
 }
 
-export default AboutMe
+export default AboutMe;
