@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/Amber-J-March2024t.pdf";
+import resume from "../images/Amber-J-March2024.pdf";
 import resumeIcon from "../images/resume-icon.png";
 
 function Contact() {
